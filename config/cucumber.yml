@@ -1,4 +1,4 @@
 ---
 default: --profile html_report --tags ~@wip
 html_report: --format progress --format html --out=reports/features_report.html
-dev: --profile html_report
+dev: --tags @wip
