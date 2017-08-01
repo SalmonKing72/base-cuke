@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+group :test do
+    gem 'cucumber'
+    gem 'selenium-webdriver'
+    gem 'test-unit'
+    gem 'page-object'
+    gem 'parallel_tests'
+    gem 'rake'
+    gem 'debase', '0.2.1'
+end
