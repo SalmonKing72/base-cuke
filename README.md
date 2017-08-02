@@ -10,6 +10,8 @@ assumes chocolatey is installed
 * `ruby dk.rb install`
 * `choco install chromedriver -y`
 * `choco install selenium-ie-driver -y`
+* `choco install selenium-gecko-driver -y`
+* `choco install phantomjs -y`
 * `gem install bundler`
 * `bundle install`
 
