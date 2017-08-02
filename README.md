@@ -1,6 +1,6 @@
 # basic cucumber skeleton on windows
 
-### Open a terminal and run...
+### Installation: Open a terminal and run...
 - `choco install ruby --version 2.3.3 -y`
 - `choco install ruby2.devkit -y`
 - `cd c:\tools\DevKit2`
@@ -11,6 +11,10 @@
 - `choco install selenium-ie-driver -y`
 - `gem install bundler`
 - `bundle install`
+
+### Run tests: Open a terminal and run...
+- `rake`
+- or you can run tests directly in your IDE
 
 ### helpful devdoc links
 - cukes.info
