@@ -21,3 +21,21 @@ Cucumber::Rake::Task.new(:features) do |t|
     #t.cucumber_opts = "--format pretty" # Any valid command line option can go here.
     #otherwise we pull from the defined profiles in cucumber.yml
 end
+
+Cucumber::Rake::Task.new(:firefox_features) do |t|
+    #t.cucumber_opts = "--format pretty" # Any valid command line option can go here.
+    #otherwise we pull from the defined profiles in cucumber.yml
+    t.cucumber_opts = "--profile firefox"
+end
+
+Cucumber::Rake::Task.new(:ie_features) do |t|
+    #t.cucumber_opts = "--format pretty" # Any valid command line option can go here.
+    #otherwise we pull from the defined profiles in cucumber.yml
+    t.cucumber_opts = "--profile ie"
+end
+
+Cucumber::Rake::Task.new(:headless_features) do |t|
+    #t.cucumber_opts = "--format pretty" # Any valid command line option can go here.
+    #otherwise we pull from the defined profiles in cucumber.yml
+    t.cucumber_opts = "--profile headless"
+end
