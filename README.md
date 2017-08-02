@@ -1,6 +1,7 @@
 # basic cucumber skeleton on windows
 
 ### Installation: Open a terminal and run...
+assumes chocolatey is installed
 - `choco install ruby --version 2.3.3 -y`
 - `choco install ruby2.devkit -y`
 - `cd c:\tools\DevKit2`
